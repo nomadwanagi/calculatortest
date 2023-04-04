@@ -25,4 +25,8 @@ function add() {
     const result = num1 / num2;
     document.getElementById("result").innerText = `Result: ${result}`;
   }
-  
+
+  function random() {
+    const result = Math.floor(Math.random() * 100);
+    document.getElementById("result").innerText = `Random number: ${result}`;
+  }
